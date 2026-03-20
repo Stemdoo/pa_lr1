@@ -46,7 +46,7 @@ tm = end - start
 logging.info(f'python-Levenshtein: {tm}')
 
 start = time.perf_counter()
-a = leven(f1, f2)
+a = leven(f1,  f2)
 print(a)
 end = time.perf_counter()
 logging.info(f'моя функция выполнена за :{end - start}')
